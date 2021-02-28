@@ -64,7 +64,6 @@ CREATE TABLE `bookings` (
 --
 
 INSERT INTO `bookings` (`bookingid`, `email`, `vehicle_type`, `vehicle_no`, `locationid`, `slotid`, `date`, `time`, `duration`, `cost`, `paid`) VALUES
-(28, 'raghulrage@gmail.com', 'Two Wheeler', 'TN-39-AH-8687', 1, '1slot1', '18-7-2020', '20:51', '9', '90', 1),
 (29, 'gj@gmail.com', '1 strip(contains 10tablets)', '', 1, '', '26-1-2021', '', '0', '0', 1),
 (30, 'gj@gmail.com', '1 strip(contains 5tablets)', '', 1, '', '26-1-2021', '', '0', '0', 1),
 (31, 'gj@gmail.com', '1 strip(contains 5tablets)', '', 2, '', '26-1-2021', '', '0', '0', 1),
@@ -134,21 +133,7 @@ CREATE TABLE `slots` (
   `duration` int(8) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `slots`
---
-
-INSERT INTO `slots` (`slotid`, `locationid`, `slotno`, `status`, `time`, `duration`) VALUES
-('1slot1', 1, 'Slot 1', 0, '0', 0),
-('1slot2', 1, 'Slot 2', 0, '0', 0),
-('1slot3', 1, 'Slot 3', 0, '0', 0),
-('27slot1', 27, 'Slot 1', 0, '0', 0),
-('27slot2', 27, 'Slot 2', 0, '0', 0),
-('28slot1', 28, 'Slot 1', 0, '0', 0),
-('2slot1', 2, 'Slot 1', 0, '0', 0),
-('2slot2', 2, 'Slot 2', 0, '0', 0);
-
--- --------------------------------------------------------
+-------------
 
 --
 -- Table structure for table `users`
