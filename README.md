@@ -1,5 +1,5 @@
 # Medicine web page
-  See the images of web page in web images folder
+  See the images of web page in web page image folder
 # Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
