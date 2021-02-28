@@ -1,6 +1,5 @@
 # Medicine web page
-#images
-(web page images/home.png).
+![1walkthrough](web page images/home.png).
 # Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
